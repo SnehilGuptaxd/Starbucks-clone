@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    background-color:#F8F4EC;
+    -bs-navbar-brand-margin-end: 3rem;
+}
+#navbarSupportedContent{
+    padding-left: 50px;
+    justify-content: center;
+}
+.nav-item a{
+    margin: 4px;
+}
+#slider{
+    height: 90vh;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    background-size: cover;
+}
+#carouselExampleCaptions h5{
+    font-size:50px;
+    color: blueviolet;
+}
+#carouselExampleCaptions p{
+    font-size: 30px;
+}
+   /* banner */
+#banner{
+    background-color: #F3B95F;
+    width: ;
+}
+#bannertext{
+    text-align: center;
+}
+#bannertext h2{
+    font-size: 70px;
+    padding-top:60px;
+    text-transform: uppercase;
+}
+#bannertext p{
+    font-size:25px;
+    padding-top: 8px;
+}
+#btn1{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#btn2{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#bnimg{
+   margin-top:35px;
+   border-bottom-left-radius: 10px;
+   margin-bottom: 35px;
+}
+  /* media query */
+@media only screen and (max-width:800px){
+    #bnimg{
+        margin-top:35px;
+        border-bottom-left-radius: 10px;
+       padding:30px;
+     }
+     #bannertext p{
+        font-size:25px;
+        margin: 35px
+    }
+}
+#servicetext h4{
+    font-size:70px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:100px;
+}
+#serviceimg{
+    margin-top:35px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 35px;
+ }
+ #btn3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: rebeccapurple;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#blog{
+    background-color: #F3B95F;
+}
+#parblog{
+    font-size:30px;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+#rcblog{
+    font-size:60px;
+    color: azure;
+}
+#mainblog{
+    border-radius:25px;
+
+}
+#service{
+    box-shadow: 4px 4px 10px black;
+}
+@media only screen and (max-width:800px){
+    #btn3{
+        padding-left: 45px;
+    }
+    #rcblog{
+        /* padding-top: 5px; */
+    }
+    #mainblog{
+        padding: 20px 28px;
+        border-radius:100px;
+    }
+    #service{
+        padding: 20px 28px;
+        border-radius:100px;
+    }
+
+}
+a{
+    text-decoration: none;
+    font-size:20px;
+    line-height:40px;
+}
+#footer{
+    background-color: bisque;
+    padding-top: 30px;
+    /* margin-top: 10px; */
+}
+#tittle{
+    text-align:center;
+    color:blueviolet;
+
+}
+#tittle h3{
+    font-size: 40px;
+}
+#tittle p{
+    font-size: 30px;
+}
+.logo a{
+    font-size:30px;
+}
+@media only screen and (max-width:800px){
+    #footer{
+        padding-left: 13px;
+    }
+}
